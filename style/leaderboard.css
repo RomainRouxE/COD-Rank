@@ -1,0 +1,52 @@
+.leaderboard {
+  width: 70%;
+}
+.content {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.legend {
+  background-color: #222526;
+  border-radius: 10px;
+  border: 3px solid #3d4345;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.headers {
+  display: flex;
+  background-color: #1b1e1f;
+  padding: 10px;
+  justify-content: space-around;
+  border: 1px solid #3d4345;
+  border-bottom: none;
+}
+.other-rank {
+  border: 1px solid #3d4345;
+  border-top: none;
+}
+.headers p {
+  width: 100px;
+}
+.other-rank {
+  background-color: #222526;
+}
+.new-rank {
+  border: 2px solid #374144;
+  padding: 10px;
+}
+.player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  border: 0.5px solid #3d4345;
+}
+.player img {
+  width: 20px;
+  border-radius: 50px;
+}
+.player p {
+  display: inline-block;
+  width: 200px;
+}
