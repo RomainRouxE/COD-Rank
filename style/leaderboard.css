@@ -1,3 +1,71 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto;
+  color: black;
+}
+.search-container p {
+  font-size: 40px;
+  color: white;
+}
+.search-container form {
+  background-color: grey;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.search-container input {
+  all: unset;
+  font: 16px system-ui;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+.search-container input::placeholder {
+  color: black;
+  opacity: 0.7;
+}
+.search-container button {
+  float: right;
+  background-color: inherit;
+  padding: 6px 10px;
+  margin: 5px 5px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.search-container button:hover {
+  background: #ccc;
+}
+
+.rank-display {
+  color: #bbb5ac;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 40px auto;
+}
+.rank {
+  display: none;
+}
+
+select {
+  padding: 10px 20px;
+  padding-right: 50px;
+  color: black;
+  border-radius: 5px;
+  background-color: grey;
+}
+option {
+  color: white;
+}
 .leaderboard {
   width: 70%;
 }
@@ -5,7 +73,6 @@
   padding: 20px;
   margin-top: 20px;
 }
-
 .legend {
   background-color: #222526;
   border-radius: 10px;
@@ -62,7 +129,8 @@
   border-radius: 50px;
 }
 
-.player .win-rate {
+.player .win-rate,
+.legend .win-rate {
   display: inline-block;
   width: 200px;
   background-color: #660000;

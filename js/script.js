@@ -8,6 +8,7 @@ $(document).ready(function () {
     .on("change", function () {
       $(".rank").hide();
       $("#" + $(this).val()).fadeIn(500);
+      console.log($("#" + $(this).val()));
     })
     .change();
 });
