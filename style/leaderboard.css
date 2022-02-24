@@ -71,7 +71,7 @@ option {
 }
 .content {
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .legend {
   background-color: #222526;
@@ -79,6 +79,10 @@ option {
   border: 3px solid #3d4345;
   margin-bottom: 20px;
   padding: 20px;
+}
+.legend h1,
+.legend h2 {
+  margin: 10px auto;
 }
 .headers {
   display: flex;
@@ -183,6 +187,9 @@ option {
 }
 
 @media (max-width: 450px) {
+  .search-container form {
+    width: 90%;
+  }
   .content {
     padding: 0px 0px;
   }
